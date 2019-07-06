@@ -12,6 +12,7 @@
     margin: 50px;
     border: solid thin;
     border-radius: 7px;
+    background-color: white;
 }
 .line {
     border-bottom: solid thin;
@@ -19,6 +20,7 @@
 .code {
     padding-left: 50%;
 }
+
 .remove {
     color: red;
     margin-left: 20px;
@@ -30,6 +32,8 @@
 .sr {
     margin-top: 10px;
     margin-left: 10px;
-    
     font-size: 12pt;
+}
+.addCont {
+    text-align: center;
 }
