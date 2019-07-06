@@ -1,0 +1,35 @@
+#promTitle {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.promos li {
+     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 21pt;
+    margin: 50px;
+    border: solid thin;
+    border-radius: 7px;
+}
+.line {
+    border-bottom: solid thin;
+}
+.code {
+    padding-left: 50%;
+}
+.remove {
+    color: red;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.send{
+    text-decoration: underline;
+}
+.sr {
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    font-size: 12pt;
+}

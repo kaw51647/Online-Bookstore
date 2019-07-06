@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Borders Books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="bookstore.css" />
+</head>
+    
+    
+<body>
+
+
+  <div class="jumbotron text-center heading" >
+  <h1 id="title">Borders Books</h1>
+  <p id="slogan">The premier online bookstore</p> 
+  </div>
+    
+    
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      
+    <!-- Brand -->
+   <!-- <a class="navbar-brand" href="home.html">Home</a> -->
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+        
+        <!-- Navbar links-left -->
+      <ul class="navbar-nav" id="barLeft">
+        <li class="nav-item mx-2">
+            <a class="nav-link" id="barLink" href="homeReg.html">Home</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" id="barLink" href="#">Books</a>
+        </li>
+        <li class="nav-item mx-2">
+          <a class="nav-link" id="barLink" href="#">Promotions</a>
+        </li>
+        
+      </ul>
+      
+      <!-- Navbar links-right -->
+        <ul class="navbar-nav" id="barRight"> 
+         <li class="nav-item mx-2">
+          <a class="nav-link" id="barLink" href="#">Profile</a>
+        </li> 
+            
+      <li class="nav-item mx-2">
+          <a class="nav-link px-0 py-0" href="#">
+              <img src="images/cart3.png" id="cartIcon" alt="Shopping Cart">
+          </a>
+      </li> 
+            
+           
+      <!-- search bar -->      
+      <form class="form-inline mx-2" action="/action_page.php">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search Books">
+          <button class="btn btn-success" id="search" type="submit">Search</button>
+      </form>
+      
+          
+      </ul>
+        
+    </div> 
+  </nav>
+
+  <div id="cartTotalContainer" style="margin-top: 20px; margin-bottom: 20px">
+    <h2>Cart subtotal (3 items): $11.97 (USD)</h2>
+  </div>
+
+  <!-- Book Checkout List -->
+  <div id="mainCheckoutContainer">
+    <div class="row">
+      <div class="col-md-6">
+
+        <div class="shoppingCartItemsContainer">
+            <div style="width: 100px; height: 100px; float: left">
+              <!--Book Image-->
+              <a href="#"><img src="https://dummyimage.com/100x100/000/fff" alt="placeholder"></a>
+            </div>
+            <div>
+              <!-- Details -->
+              <div class="shoppingCartItemsDetails">
+                <!-- Book Details -->
+                <a href="#">Book Title</a>
+                <p>By John Smith</p>
+                <p>Condition: <strong>Acceptable</strong></p>
+                <p>Format: <strong>Paperback</strong></p>
+                <p><strong>3.99</strong> each</p>
+              </div>
+              <div class="shoppingCartItemsQuantity">
+                <!-- Totals -->
+                <select>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+                <p>Subtotal: <strong>$3.99</strong></p>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="shoppingCartItemsContainer">
+            <div style="width: 100px; height: 100px; float: left">
+              <!--Book Image-->
+              <a href="#"><img src="https://dummyimage.com/100x100/000/fff" alt="placeholder"></a>
+            </div>
+            <div>
+              <!-- Details -->
+              <div class="shoppingCartItemsDetails">
+                <!-- Book Details -->
+                <a href="#">Book Title</a>
+                <p>By John Smith</p>
+                <p>Condition: <strong>Acceptable</strong></p>
+                <p>Format: <strong>Paperback</strong></p>
+                <p><strong>3.99</strong> each</p>
+              </div>
+              <div class="shoppingCartItemsQuantity">
+                <!-- Totals -->
+                <select>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+                <p>Subtotal: <strong>$3.99</strong></p>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="shoppingCartItemsContainer">
+            <div style="width: 100px; height: 100px; float: left">
+              <!--Book Image-->
+              <a href="#"><img src="https://dummyimage.com/100x100/000/fff" alt="placeholder"></a>
+            </div>
+            <div>
+              <!-- Details -->
+              <div class="shoppingCartItemsDetails">
+                <!-- Book Details -->
+                <a href="#">Book Title</a>
+                <p>By John Smith</p>
+                <p>Condition: <strong>Acceptable</strong></p>
+                <p>Format: <strong>Paperback</strong></p>
+                <p><strong>3.99</strong> each</p>
+              </div>
+              <div class="shoppingCartItemsQuantity">
+                <!-- Totals -->
+                <select>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+                <p>Subtotal: <strong>$3.99</strong></p>
+                <a href="#">Remove</a>
+              </div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="col-md-1">
+        <!--Doesnt matter-->
+      </div>
+
+      <div class="checkoutPromoContainer col-md-4">
+        <div id="orderSummaryContainer">
+          <!--Promotion Code -->
+          <div class="orderSummary">
+            <p>Promotion Code</p>
+            <input type="text" class="form-control">
+            <button type="button" class="btn btn-primary">Apply</button>
+          </div>
+          <hr/>
+          <div class="orderSummary">
+            <h4>Order Summary</h4>
+            <table style="width: 100%">
+              <tr>
+                <td>Items (3)</td>
+                <td>$11.97</td>
+              </tr>
+                <td>Promotions</td>
+                <td>---</td>
+              <tr>
+                <td>Sales Tax</td>
+                <td>---</td>
+              </tr>
+              <tr>
+                <td><strong>Estimated Total</strong></td>
+                <td><strong>$11.97</strong></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <button type="button" class="btn btn-success btn-block" style="margin-top: 10px">Place Order</button>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+    
+    
+</html>

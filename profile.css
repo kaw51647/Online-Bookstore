@@ -1,0 +1,32 @@
+#top {
+    text-align: center;
+    text-decoration: underline
+}
+
+.profileBox {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 8px;
+    border: solid thin darkred;
+    border-radius: 7px;
+}
+.profileBox h4 {
+    text-decoration: underline
+}
+.profileBox p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 13pt;
+}0
+.profileBox button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 5px;
+}
+#historyBtn {
+    padding: 10px;
+}
+
