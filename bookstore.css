@@ -122,11 +122,9 @@ body {
 }
 .messageBox {
     text-align: center;
-    padding: 20px;
+    margin: 25px;
+    padding: 15px;
     background-color: white;
     border: solid thin black;
 }
-
-
-
 

@@ -10,11 +10,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="bookstore.css" />
-</head>
-    
-    
+    <link rel="stylesheet" href="profile.css" />
+</head>  
 <body>
-
 
   <div class="jumbotron text-center heading" >
   <h1 id="title">Borders Books</h1>
@@ -41,26 +39,22 @@
           <a class="nav-link" id="barLink" href="homeReg.html">Home</a>
       </li>
       <li class="nav-item mx-2">
-        <a class="nav-link" id="barLink" href="booklist.html">Books</a>
+        <a class="nav-link" id="barLink" href="#">Books</a>
       </li>
       <li class="nav-item mx-2">
-        <a class="nav-link" id="barLink" href="promotions.html">Promotions</a>
+        <a class="nav-link" id="barLink" href="#">Promotions</a>
       </li>
       
     </ul>
     
     <!-- Navbar links-right -->
       <ul class="navbar-nav" id="barRight"> 
-        <li class="nav-item mx-2">
-        <a class="nav-link" id="barLink" href="profileAdmin.html">Admin Controls</a>
-        </li> 
-          
-        <li class="nav-item mx-2">
-        <a class="nav-link" id="barLink" href="profile.html">Profile</a>
-        </li> 
+       <li class="nav-item mx-2">
+        <a class="nav-link" id="barLink" href="#">Profile</a>
+      </li> 
           
     <li class="nav-item mx-2">
-        <a class="nav-link px-0 py-0" href="cart.html">
+        <a class="nav-link px-0 py-0" href="#">
             <img src="images/cart3.png" id="cartIcon" alt="Shopping Cart">
         </a>
     </li> 
@@ -79,46 +73,36 @@
 </nav>
     <!-- end of header content -->
     
-    
-     <!-- Slide Show -->
-<h1 id="slideHeader">Featured Books</h1>
-<div class="container bg-dark" id="slideShow">
-  <div id="demo" class="carousel slide" data-ride="carousel">
-
-  <!-- Indicators -->
-  <!--<ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul> 
-    -->
-
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="img-fluid mt-1 mx-auto d-block" src="images/potter1.jpg" alt="Harry Potter">
-        <h3>Harry Potter and the Sorcerer's Stone</h3>
+<div id="top" class="container mt-5 adminControls">
+    <h2>Admin Controls</h2>
+    <div class=row>
+        <div class="col messageBox">
+        <h5>Manage Available Books</h5>
+        <button type="button" class="btn btn-primary my-2 mx-5">Add Books</button>
+            
+        <button type="button" class="btn btn-primary my-2 mx-5" id=adminBtn>Delete Books</button>
+            
+        <button type="button" class="btn btn-primary my-2 mx-5" id=adminBtn>Update Book</button>
+        </div>
+        
+        <div class="col messageBox">
+        <h5>Manage Promotions</h5>
+        <button type="button" class="btn btn-primary my-2 mx-5">Add Promotions</button>
+            
+        <button type="button" class="btn btn-primary my-2 mx-5" id=adminBtn>Delete Promotions</button>    
+        </div>
+        
+        <div class="col messageBox">
+        <h5>Manage Users</h5>
+        <button type="button" class="btn btn-primary my-2 mx-5">Promote Users</button>
+            
+        <button type="button" class="btn btn-primary my-2 mx-5" id=adminBtn>Suspend Users</button>
+        <button type="button" class="btn btn-primary my-2 mx-5" id=adminBtn>Delete Users</button> 
+        </div>
+        
     </div>
-    <div class="carousel-item">
-      <img class="img-fluid mt-1 mx-auto d-block" src="images/unfortunate1.jpg" alt="Series of Unfortunate Events">
-        <h3 class="bg-dark">Series of Unfortunate Events: The Bad Beginning</h3>
-    </div>
-    <div class="carousel-item">
-      <img class="img-fluid mt-1 mx-auto d-block" src="images/rye.jpg" alt="Cacther in the Rye">
-        <h3>The Catcher in the Rye</h3>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-  </div>
 </div>
+    
     
 
 </body>   
