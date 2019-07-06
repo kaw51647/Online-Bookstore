@@ -120,6 +120,12 @@ body {
     margin: 15px;
     color: white;
 }
+.messageBox {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border: solid thin black;
+}
 
 
 
